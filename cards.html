@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <title>EventBrite</title>
+</head>
+
+<body>
+
+  <!-- 1. Liste de cartes d'évènements -->
+  <div class="row d-flex flex-row justify-content-center">
+    <div class="card col-3 px-0 mb-3 ml-2 mr-2">
+      <h3 class="card-header">Nom de l'évènement</h3>
+      <div class="card-body">
+        <h5 class="card-title">Date de l'évènement</h5>
+        <h6 class="card-subtitle text-muted">Lieu de l'évènement</h6>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="100%" height="200" aria-label="Placeholder: Image cap" focusable="false" role="img" preserveAspectRatio="xMidYMid slice" viewBox="0 0 318 180"
+        style="font-size:1.125rem;text-anchor:middle">
+        <rect width="100%" height="100%" fill="#868e96" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#585f63;"></rect>
+        <text x="50%" y="50%" fill="#dee2e6" dy=".3em" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#d6d2cd;">Image cap</text>
+      </svg>
+      <div class="card-body">
+        <p class="card-text">Description allégée de l'évènement.</p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">Prix par participant</li>
+        <li class="list-group-item">Nombre de places restantes</li>
+      </ul>
+      <div class="card-body">
+        <a href="#" class="card-link btn btn-primary">Voir l'évènement</a>
+        <a href="#" class="card-link btn btn-secondary">Participer</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. Carte de listes -->
+  <div class="d-flex flex-row justify-content-center">
+    <div class="card mb-3">
+      <div class="card-body row">
+        <svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none col-2" width="100%" height="200" aria-label="Placeholder: Image cap" focusable="false" role="img" preserveAspectRatio="xMidYMid slice" viewBox="0 0 318 180"
+          style="font-size:1.125rem;text-anchor:middle">
+          <rect width="100%" height="100%" fill="#868e96" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#585f63;"></rect>
+          <text x="50%" y="50%" fill="#dee2e6" dy=".3em" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#d6d2cd;">Image cap</text>
+        </svg>
+        <div class="d-flex flex-column justify-content-center align-content-center col-10">
+          <h5 class="card-title">Nom du participant</h5>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Adresse email</li>
+            <li class="list-group-item">Description</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. Listes de cartes de villes -->
+
+  <div class="row d-flex flex-row justify-content-center">
+    <div class="card col-3 px-0 mb-3 ml-2 mr-2">
+      <div class="city-img">
+        <h5 class="text-center">Nom de la ville</h5>
+      </div>
+      <div class="card-body">
+        <p class="card-text">Description allégée de la ville.</p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">Nombre d"évènements listés</li>
+      </ul>
+      <div class="card-body d-flex flex-row justify-content-center">
+        <a href="#" class="card-link btn btn-primary text-center">Voir les évènements</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

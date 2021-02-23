@@ -4771,6 +4771,22 @@ input[type="button"].btn-block {
   border-radius: 0.25rem;
 }
 
+.city-img {
+  padding: 2rem 1rem;
+  color: white;
+  background: linear-gradient(0deg, #00000088 30%, #ffffff44 100%);
+  border-radius: 0.3rem;
+  width: 100%;
+  length: 10em;
+}
+
+.profile-img {
+  padding: 2rem 1rem;
+  color: white;
+  background: #eee;
+  border-radius: 0.3rem;
+}
+
 .card > hr {
   margin-right: 0;
   margin-left: 0;
