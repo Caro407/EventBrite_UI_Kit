@@ -91,6 +91,10 @@ p {
   margin-bottom: 1rem;
 }
 
+.container-card-eb {
+  width: 70vw;
+}
+
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
