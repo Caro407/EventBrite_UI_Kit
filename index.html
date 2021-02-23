@@ -47,7 +47,7 @@
   <!-- BANNERS -->
 
   <div class="jumbotron">
-    <h1 class="display-3 text-right">Hello, world!</h1>
+    <h1 class="display-2 text-right">Hello, world!</h1>
     <p class="lead text-right">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
     <hr class="my-4">
     <p class="text-right">It uses utility classes for typography and spacing to space content out within the larger container.</p>
@@ -66,92 +66,170 @@
     </p>
   </div>
 
+  <!-- CARDS -->
+  <!-- 1. Liste de cartes d'évènements -->
+  <div class="row d-flex flex-row justify-content-center">
+    <div class="card col-3 mb-3 ml-2 mr-2">
+      <h3 class="card-header">Nom de l'évènement</h3>
+      <div class="card-body">
+        <h5 class="card-title">Date de l'évènement</h5>
+        <h6 class="card-subtitle text-muted">Lieu de l'évènement</h6>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="100%" height="200" aria-label="Placeholder: Image cap" focusable="false" role="img" preserveAspectRatio="xMidYMid slice" viewBox="0 0 318 180"
+        style="font-size:1.125rem;text-anchor:middle">
+        <rect width="100%" height="100%" fill="#868e96" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#585f63;"></rect>
+        <text x="50%" y="50%" fill="#dee2e6" dy=".3em" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#d6d2cd;">Image cap</text>
+      </svg>
+      <div class="card-body">
+        <p class="card-text">Description allégée de l'évènement.</p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">Prix par participant</li>
+        <li class="list-group-item">Nombre de places restantes</li>
+      </ul>
+      <div class="card-body">
+        <a href="#" class="card-link btn btn-primary">Voir l'évènement</a>
+        <a href="#" class="card-link btn btn-secondary">Participer</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. Carte de listes -->
+  <div class="d-flex flex-row justify-content-center">
+    <div class="card">
+      <div class="card-body row">
+        <svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none col-2" width="100%" height="200" aria-label="Placeholder: Image cap" focusable="false" role="img" preserveAspectRatio="xMidYMid slice" viewBox="0 0 318 180"
+          style="font-size:1.125rem;text-anchor:middle">
+          <rect width="100%" height="100%" fill="#868e96" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#585f63;"></rect>
+          <text x="50%" y="50%" fill="#dee2e6" dy=".3em" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#d6d2cd;">Image cap</text>
+        </svg>
+        <div class="d-flex flex-column justify-content-center align-content-center col-10">
+          <h5 class="card-title">Nom du participant</h5>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Adresse email</li>
+            <li class="list-group-item">Description</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. Listes de cartes de villes -->
+
+  <div class="row d-flex flex-row justify-content-center">
+    <div class="card col-3 mb-3 ml-2 mr-2">
+      <h3 class="card-header">Nom de l'évènement</h3>
+      <div class="card-body">
+        <h5 class="card-title">Date de l'évènement</h5>
+        <h6 class="card-subtitle text-muted">Lieu de l'évènement</h6>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="100%" height="200" aria-label="Placeholder: Image cap" focusable="false" role="img" preserveAspectRatio="xMidYMid slice" viewBox="0 0 318 180"
+        style="font-size:1.125rem;text-anchor:middle">
+        <rect width="100%" height="100%" fill="#868e96" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#585f63;"></rect>
+        <text x="50%" y="50%" fill="#dee2e6" dy=".3em" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#d6d2cd;">Image cap</text>
+      </svg>
+      <div class="card-body">
+        <p class="card-text">Description allégée de l'évènement.</p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">Prix par participant</li>
+        <li class="list-group-item">Nombre de places restantes</li>
+      </ul>
+      <div class="card-body">
+        <a href="#" class="card-link btn btn-primary">Voir l'évènement</a>
+        <a href="#" class="card-link btn btn-secondary">Participer</a>
+      </div>
+    </div>
+  </div>
+
   <!-- FORMS -->
-  <form>
-    <fieldset>
-      <legend>Formulaires :</legend>
-      <div class="form-group">
-        <label for="exampleInputEmail">Email address</label>
-        <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter email">
-        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-      </div>
-      <div class="form-group">
-        <label for="exampleInputPassword1">Password</label>
-        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-      </div>
-      <div class="form-group">
-        <label for="exampleSelect1">Example select</label>
-        <select class="form-control" id="exampleSelect1">
-          <option>1</option>
-          <option>2</option>
-          <option>3</option>
-          <option>4</option>
-          <option>5</option>
-        </select>
-      </div>
-      <div class="form-group">
-        <label for="exampleSelect2">Example multiple select</label>
-        <select multiple="" class="form-control" id="exampleSelect2">
-          <option>1</option>
-          <option>2</option>
-          <option>3</option>
-          <option>4</option>
-          <option>5</option>
-        </select>
-      </div>
-      <div class="form-group">
-        <label for="exampleTextarea">Example textarea</label>
-        <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
-      </div>
-      <div class="form-group">
-        <label for="exampleInputFile">File input</label>
-        <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
-        <small id="fileHelp" class="form-text text-muted">This is some placeholder block-level help text for the above input. It's a bit lighter and easily wraps to a new line.</small>
-      </div>
-      <fieldset class="form-group">
-        <legend>Radio buttons</legend>
-        <div class="form-check">
-          <label class="form-check-label">
-            <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
-            Option one is this and that—be sure to include why it's great
-          </label>
+  <div class="ml-2">
+    <form>
+      <fieldset>
+        <legend>Formulaires :</legend>
+        <div class="form-group">
+          <label for="exampleInputEmail">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
         </div>
-        <div class="form-check">
-          <label class="form-check-label">
-            <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
-            Option two can be something else and selecting it will deselect option one
-          </label>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
         </div>
-        <div class="form-check disabled">
-          <label class="form-check-label">
-            <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3" disabled="">
-            Option three is disabled
-          </label>
+        <div class="form-group">
+          <label for="exampleSelect1">Example select</label>
+          <select class="form-control" id="exampleSelect1">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
         </div>
+        <div class="form-group">
+          <label for="exampleSelect2">Example multiple select</label>
+          <select multiple="" class="form-control" id="exampleSelect2">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="exampleTextarea">Example textarea</label>
+          <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputFile">File input</label>
+          <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+          <small id="fileHelp" class="form-text text-muted">This is some placeholder block-level help text for the above input. It's a bit lighter and easily wraps to a new line.</small>
+        </div>
+        <fieldset class="form-group">
+          <legend>Radio buttons</legend>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+              Option one is this and that—be sure to include why it's great
+            </label>
+          </div>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+              Option two can be something else and selecting it will deselect option one
+            </label>
+          </div>
+          <div class="form-check disabled">
+            <label class="form-check-label">
+              <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3" disabled="">
+              Option three is disabled
+            </label>
+          </div>
+        </fieldset>
+        <fieldset class="form-group">
+          <legend>Checkboxes</legend>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" value="" checked="">
+              Option one is this and that—be sure to include why it's great
+            </label>
+          </div>
+          <div class="form-check disabled">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" value="" disabled="">
+              Option two is disabled
+            </label>
+          </div>
+        </fieldset>
+        <fieldset class="form-group">
+          <legend>Sliders</legend>
+          <label for="customRange1">Example range</label>
+          <input type="range" class="custom-range" id="customRange1">
+        </fieldset>
+        <button type="submit" class="btn btn-primary">Submit</button>
       </fieldset>
-      <fieldset class="form-group">
-        <legend>Checkboxes</legend>
-        <div class="form-check">
-          <label class="form-check-label">
-            <input class="form-check-input" type="checkbox" value="" checked="">
-            Option one is this and that—be sure to include why it's great
-          </label>
-        </div>
-        <div class="form-check disabled">
-          <label class="form-check-label">
-            <input class="form-check-input" type="checkbox" value="" disabled="">
-            Option two is disabled
-          </label>
-        </div>
-      </fieldset>
-      <fieldset class="form-group">
-        <legend>Sliders</legend>
-        <label for="customRange1">Example range</label>
-        <input type="range" class="custom-range" id="customRange1">
-      </fieldset>
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </fieldset>
-  </form>
+    </form>
+  </div>
 
   <!-- FOOTER -->
 
